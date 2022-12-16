@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 2000px;
+    height: 95vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5rem;
+}
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+}
+
+.cabecalho img {
+    width: 6rem;
+    display: flex;
+    margin-left: 5rem;
+}
+
+.box {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    column-gap: 7rem;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    width: 40rem;
+}
+
+.face {
+    background-color: #4065b4;
+    width: 23rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.banner {
+    background-color: rgb(255, 255, 255);
+    width: 35rem;
+    height: 40rem;
+    border-radius: 10px;
+    border: 0.1px solid rgb(216, 216, 216);
+}
+
+.banner h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+    font-size: 45px;
+    color: rgb(61, 61, 61);
+}
+
+.banner p {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.banner img {
+    width: 2rem;
+    margin-left: 1rem;
+}
+
+.banner li {
+    list-style: none;
+}
+
+.face:hover {
+    background-color: #4065b4c9;
+}
+
+.face li {
+    margin-left: 3.5rem;
+    color: white;
+    font-size: 18px;
+}
+
+.google {
+    background-color: white;
+    width: 23rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.google li {
+    margin-left: 3.5rem;
+    color: rgb(126, 126, 126);
+    font-size: 18px;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    column-gap: 6rem;
+    color: rgb(150, 150, 150);
+    font-size: 18px;
+}
+
+.opcoes ul {
+    display: flex;
+    border: 0.1px solid rgb(194, 193, 193);
+    width: 9rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.opcoes ul:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1010px) {
+
+    body {
+        width: 900px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 16rem;
+    }
+
+    .cabecalho {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .cabecalho img {
+        margin-right: 6rem;
+    }
+
+    .img {
+        margin-top: -5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        width: 50rem;
+        justify-content: center;
+    }
+
+    .banner h1, p {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner ul {
+        display: flex;
+        width: 49rem;
+        margin-left: 0.5rem;
+    }
+
+    .face li {
+        display: flex;
+        justify-content: center;
+        margin-left: 15rem;
+    }
+
+    .google {
+        display: flex;
+        justify-content: center;
+    }
+
+    .google li {
+        margin-left: 15rem;
+    }
+}
+

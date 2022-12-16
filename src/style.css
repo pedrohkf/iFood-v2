@@ -35,6 +35,10 @@
     margin-right: 10%;
 }
 
+.menu li:hover {
+    cursor: pointer;
+}
+
 .banner {
     display: flex;
     flex-direction: column;
@@ -91,6 +95,10 @@
     font-size: 16px;
 }
 
+.pesquisa ul:hover {
+    cursor: pointer;
+}
+
 .pesquisa ul {
     list-style: none;
     background-color: red;
@@ -130,10 +138,10 @@
     border-radius: 17px;
     margin-right: 1%;;
 }
-
 .hamburguer:hover {
     transition-duration: 0.3s;
     transform: scale(1.02, 1.02);
+    cursor: pointer;
 }
 
 .hamburguer h1 {
@@ -205,6 +213,7 @@
 .carrinho:hover {
     transition-duration: 0.3s;
     transform: scale(1.02, 1.02);
+    cursor: pointer;
 }
 
 .categorias {
@@ -243,6 +252,7 @@
 .categorias ul:hover {
     transition-duration: 0.3s;
     transform: scale(1.02, 1.02);
+    cursor: pointer;
 }
 
 .fundo1 {
@@ -280,6 +290,7 @@
 
 .box ul:hover {
     border: 0.1px solid rgb(202, 202, 202);
+    cursor: pointer;
 }
 
 .box ul {
@@ -329,6 +340,10 @@
     width: 27rem;
 }
 
+.promocoes:hover {
+    cursor: pointer;
+}
+
 .top-merket h1 {
     margin-top: -5rem;
     font-size: 28px;
@@ -363,6 +378,7 @@
 
 .top-merket ul:hover {
     border: 0.1px solid rgb(202, 202, 202);
+    cursor: pointer;
 }
 
 .saiba-mais {
@@ -409,6 +425,7 @@
     align-items: center;
     color: white;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .saiba-mais2 {
@@ -433,6 +450,7 @@
     align-items: center;
     color: white;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .saiba-mais2 img {
@@ -449,6 +467,7 @@
 
 .promo img {
     width: 90rem;
+    cursor: pointer;
 }
 
 hr {
@@ -483,6 +502,13 @@ hr {
     font-size: 18px;
     display: flex;
     column-gap: 4rem;
+    cursor: pointer;
+    width: 65rem;
+}
+
+.cria-conta a {
+    text-decoration: none;
+    color: red;
 }
 
 @media screen and (max-width: 930px) {
@@ -492,6 +518,10 @@ hr {
 
     .menu {
         display: none;
+    }
+
+    .cria-conta li {
+        margin-left: -5rem;
     }
 
     .logo {
