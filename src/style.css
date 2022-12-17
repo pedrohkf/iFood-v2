@@ -4,199 +4,608 @@
 }
 
 .container{
-    display: flex;
-    flex-direction: column;
-    max-width: 2000px;
-    height: 95vh;
+    max-width: 1380px;
+    height: 300vh;
+    padding-top: 3rem;
+    position: relative;
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 5rem;
 }
 
 .cabecalho {
     display: flex;
-    width: 100%;
-    height: 5rem;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    font-size: 19px;
 }
 
 .cabecalho img {
+    display: flex;
+    align-items: center;
     width: 6rem;
-    display: flex;
-    margin-left: 5rem;
 }
 
-.box {
-    height: 80vh;
+.menu {
     display: flex;
-    justify-content: center;
-    column-gap: 7rem;
-    align-items: center;
-}
-
-.img {
-    display: flex;
-    align-items: center;
-    width: 40rem;
-}
-
-.face {
-    background-color: #4065b4;
-    width: 23rem;
-    height: 3.5rem;
-    display: flex;
-    align-items: center;
-    margin-left: 5rem;
-    margin-top: 5rem;
-    border-radius: 6px;
-    cursor: pointer;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+    color: #646464;
+    margin-right: 10%;
 }
 
 .banner {
-    background-color: rgb(255, 255, 255);
-    width: 35rem;
-    height: 40rem;
-    border-radius: 10px;
-    border: 0.1px solid rgb(216, 216, 216);
-}
-
-.banner h1 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding-top: 2.5rem;
-    font-size: 45px;
-    color: rgb(61, 61, 61);
+    width: 100%;
+    align-items: center;
+    height: 10rem;
+    padding-top: 5rem;
+    font-size: 19px;
 }
 
 .banner p {
-    font-size: 25px;
+    color: #8b8a8b;
+}
+
+.cria-conta{
     display: flex;
-    justify-content: center;
-    padding-top: 1rem;
-}
-
-.banner img {
-    width: 2rem;
-    margin-left: 1rem;
-}
-
-.banner li {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     list-style: none;
+    width: 15%;
+    color: red;
 }
 
-.face:hover {
-    background-color: #4065b4c9;
-}
-
-.face li {
-    margin-left: 3.5rem;
-    color: white;
-    font-size: 18px;
-}
-
-.google {
-    background-color: white;
-    width: 23rem;
-    height: 3.5rem;
+.cria-conta p {
     display: flex;
     align-items: center;
-    margin-left: 5rem;
-    margin-top: 2rem;
-    border-radius: 6px;
-    cursor: pointer;
+    justify-content: center;
+    background-color: red;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 7px;
+    color: white;
 }
 
-.google li {
-    margin-left: 3.5rem;
-    color: rgb(126, 126, 126);
-    font-size: 18px;
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5vh;
+    padding-top: 2rem;
+}
+
+.pesquisa input {
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    width: 35rem;
+    margin-right: 10%;
+    padding: 0px 0px 0px 50px;
+    border: solid white;
+    outline: none;
+    font-size: 16px;
+}
+
+.pesquisa ul {
+    list-style: none;
+    background-color: red;
+    width: 9rem;
+    height: 3.3rem;
+    border-radius: 4px;
+    margin-right: 5rem;
+}
+
+.pesquisa ul li {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: center;
+    color: white;
+    font-size: 19px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
 }
 
 .opcoes {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
-    column-gap: 6rem;
-    color: rgb(150, 150, 150);
+    width: 100%;
+    padding-top: 4rem;
+}
+
+.hamburguer {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 26rem;
+    height: 15rem;
+    border-radius: 17px;
+    margin-right: 1%;;
+}
+
+.hamburguer:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.02, 1.02);
+}
+
+.hamburguer h1 {
+    margin-left: 1.5rem;
+    margin-top: 2.5rem;
+    font-size: 35px;
+    color: white;
+}
+
+.hamburguer img {
+    display: flex;
+    width: 15.2rem;
+    margin-top: -0.7rem;
+    margin-left: 11rem;
+}
+
+.hamburguer p {
+    background-color: #cc1825;
+    width: 10rem;
+    height: 2.8rem;
+    margin-top: -5.7rem;
+    margin-left: 1.2rem;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     font-size: 18px;
 }
 
-.opcoes ul {
+.carrinho {
     display: flex;
-    border: 0.1px solid rgb(194, 193, 193);
-    width: 9rem;
-    height: 3rem;
+    flex-direction: column;
+    background-color: #b6d048;
+    width: 26rem;
+    height: 15rem;
+    border-radius: 17px;
+    margin-left: 1%;
+}
+
+.carrinho img {
+    display: flex;
+    width: 15.2rem;
+    margin-top: -1.5rem;
+    margin-left: 11rem;
+}
+
+.carrinho h1 {
+    margin-left: 1.5rem;
+    margin-top: 2.5rem;
+    font-size: 35px;
+    color: white;
+}
+
+.carrinho p {
+    background-color: #9eb53e;
+    width: 10rem;
+    height: 2.8rem;
+    margin-top: -5.7rem;
+    margin-left: 1.2rem;
+    border-radius: 13px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-}
-
-.opcoes ul:hover {
-    background-color: red;
     color: white;
-    cursor: pointer;
+    font-size: 18px;
 }
 
-@media screen and (max-width: 1010px) {
+.carrinho:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.02, 1.02);
+}
 
+.categorias {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    margin-top: 3rem;
+    justify-content: center;
+    column-gap: 5rem;
+    align-items: flex-end;
+}
+
+.categorias ul {
+    border-radius: 10px;
+    width: 12rem;
+    height: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.bebidas {
+    margin-top: -2.4rem;
+}
+
+.remedios {
+    margin-top: -1.89rem;
+}
+
+.pet {
+    margin-top: -1.3rem;
+}
+
+.categorias ul:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.02, 1.02);
+}
+
+.fundo1 {
+    background-color: #f6d553;
+}
+
+.fundo2 {
+    background-color: #f9879c;
+}
+
+.fundo3 {
+    background-color: #8c60c5;
+}
+
+.categorias li {
+    font-size: 18px;
+    margin-top: 0.5rem;
+    list-style: none;
+}
+
+.classificados h1 {
+    padding-top: 9rem;
+    font-size: 28px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10rem;
+    width: 100%;
+    height: 5vh;
+    column-gap: 1.5rem;
+}
+
+.box ul:hover {
+    border: 0.1px solid rgb(202, 202, 202);
+}
+
+.box ul {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 17rem;
+    height: 9rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0.1px solid rgb(230, 229, 229);
+    margin-top: -7rem;
+}
+
+.box img {
+    border-radius: 50%;
+    width: 3.8rem;
+    margin-left: 1.5rem;
+}
+
+.box h1 {
+    font-size: 15.5px;
+    margin-top: -10.5rem;
+    margin-left: 0.8rem;
+    width: 100%;
+}
+
+.box p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: -100%;
+    color: #8b8a8b;
+}
+
+.promocoes {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+    width: 100%;
+}
+
+.promocoes img {
+    width: 27rem;
+}
+
+.top-merket h1 {
+    margin-top: -5rem;
+    font-size: 28px;
+}
+
+.top-merket {
+    display: flex;
+    padding-top: 15rem;
+    column-gap: 1rem;
+    margin-left: 0rem;
+}
+
+.top-merket ul {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 17rem;
+    height: 9rem;
+    display: flex;
+    align-items: center;
+    border: 0.1px solid rgb(230, 229, 229);
+}
+
+.top-merket img {
+    border-radius: 50%;
+    width: 3.8rem;
+    margin-left: 1.5rem;
+}
+
+.top-merket p {
+    margin-left: 1rem;
+}
+
+.top-merket ul:hover {
+    border: 0.1px solid rgb(202, 202, 202);
+}
+
+.saiba-mais {
+    display: flex;
+    padding-top: 10rem;
+    justify-content: center;
+    column-gap: 10rem;
+}
+
+.saiba-mais div {
+    display: flex;
+    margin-right: 7rem;
+}
+
+.saiba-mais img {
+    width: 14rem;
+}
+
+.saiba-mais h1 {
+    display: flex;
+    margin-top: -5rem;
+    margin-left: 2rem;
+    width: 10em;
+    font-size: 35px;
+}
+
+.saiba-mais p {
+    display: flex;
+    margin-top: 5rem;
+    margin-left: -22rem;
+    width: 16rem;
+    font-size: 19px;
+}
+
+.saiba-mais li {
+    list-style: none;
+    width: 8rem;
+    height: 3.5rem;
+    margin-top: 10rem;
+    margin-left: -16rem;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+}
+
+.saiba-mais2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.saiba-mais2 div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.saiba-mais2 li{
+    list-style: none;
+    width: 8rem;
+    height: 3.5rem;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+}
+
+.saiba-mais2 img {
+    width: 55rem;
+    margin-left: 20rem;
+    margin-top: -18rem;
+}
+
+.promo {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.promo img {
+    width: 90rem;
+}
+
+hr {
+    margin-top: 7rem;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    color: #8b8a8b;
+    font-size: 14px;
+    padding-top: 1rem;
+}
+
+.rodape ul img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.rodape ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+
+.rodape ul p {
+    margin-left: 2rem;
+}
+
+.dicas {
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    column-gap: 4rem;
+}
+
+@media screen and (max-width: 930px) {
     body {
-        width: 900px;
+        width: 935px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        width: 20rem;
+    }
+
+    .conteudo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hamburguer{
+        height: 13.5rem;
+    }
+
+    .hamburguer img {
+        width: 13.1rem;
+    }
+
+    .carrinho {
+        height: 13.5rem;
+    }
+
+    .carrinho img {
+        width: 13.1rem;
     }
 
     .box {
+        width: 100%;
+        height: 3vh;
+        column-gap: 0.5rem;
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        padding-top: 16rem;
     }
 
-    .cabecalho {
-        display: flex;
-        justify-content: center;
+    .box ul {
+        width: 10rem;
+        height: 5rem;
+    }
+
+    .box img {
+        width: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .box p {
         margin-top: 2rem;
     }
 
-    .cabecalho img {
-        margin-right: 6rem;
+    .out h1 {
+        width: 5rem;
     }
 
-    .img {
-        margin-top: -5rem;
+    .out p {
+        margin-left: -5rem;
+        margin-top: 2rem;
+    }
+
+    .promocoes img {
+        width: 17rem;
+    }
+
+    .top-merket {
         display: flex;
         justify-content: center;
+        column-gap: 0.5rem;
     }
 
-    .banner {
+    .top-merket ul {
+        width: 10rem;
+        height: 5rem;
+        display: flex;
+    }
+    .top-merket img {
+        width: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .top-merket p {
+        margin-left: 0.3rem;
+    }
+
+    .saiba-mais {
         display: flex;
         flex-direction: column;
-        margin-top: 1rem;
-        width: 50rem;
-        justify-content: center;
+        padding-left: 5rem;
+        row-gap: 12rem;
     }
 
-    .banner h1, p {
+    .saiba-mais2 img {
+        width: 33rem;
+    }
+
+    .promo {
+        background-image: url(/imgs/promos/promo-mobile.jpg);
+        height: 33vh;
+        margin-top: 5rem;
+    }
+
+    .promo img {
+        display:none;
+    }
+
+    .rodape {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        height: 25vh;
     }
 
-    .banner ul {
-        display: flex;
-        width: 49rem;
-        margin-left: 0.5rem;
+    .rodape img {
+        margin-right: 9rem;
     }
 
-    .face li {
-        display: flex;
-        justify-content: center;
-        margin-left: 15rem;
-    }
-
-    .google {
-        display: flex;
-        justify-content: center;
-    }
-
-    .google li {
-        margin-left: 15rem;
+    .rodape li {
+        padding-top: 6rem;
     }
 }
-
