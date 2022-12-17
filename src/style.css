@@ -558,7 +558,6 @@ hr {
 @media screen and (max-width: 930px) {
     body {
         width: 935px;
-        overflow-x: hidden;
     }
 
     .menu {
