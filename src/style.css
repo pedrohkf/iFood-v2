@@ -485,6 +485,11 @@ hr {
     column-gap: 4rem;
 }
 
+.cria-conta a {
+    text-decoration: none;
+    color: red;
+}
+
 @media screen and (max-width: 930px) {
     body {
         width: 935px;
