@@ -149,6 +149,7 @@
         justify-content: center;
         padding-top: 16rem;
         max-width: 900px;
+        height: 68vh;
     }
 
     .cabecalho {
@@ -163,7 +164,7 @@
     }
 
     .img {
-        margin-top: -5rem;
+        margin-top: -13rem;
         display: flex;
         justify-content: center;
     }
@@ -171,7 +172,7 @@
     .banner {
         display: flex;
         flex-direction: column;
-        margin-top: 1rem;
+        margin-top: 0rem;
         width: 50rem;
         justify-content: center;
     }
@@ -204,6 +205,48 @@
 
     .google li {
         margin-left: 15.5rem;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    body {
+        max-width: 740px;
+    }
+
+    .container div {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .box {
+        display: flex;
+        width: 10rem;
+        justify-content: center;
+        margin-right: 5rem;
+    }
+
+    .banner ul {
+        width: 37rem;
+    }
+
+    .face img {
+        margin-left: -4.2rem;
+        opacity: 0;
+    }
+
+    .face li {
+        justify-content: center;
+    }
+
+    .google li {
+        justify-content: center;
+    }
+
+    .face li {
+        display: flex;
+        justify-content: center;
     }
 }
 
