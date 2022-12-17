@@ -33,6 +33,7 @@
     list-style: none;
     color: #646464;
     margin-right: 10%;
+    cursor: pointer;
 }
 
 .banner {
@@ -58,6 +59,7 @@
     list-style: none;
     width: 15%;
     color: red;
+    cursor: pointer;
 }
 
 .cria-conta p {
@@ -98,6 +100,7 @@
     height: 3.3rem;
     border-radius: 4px;
     margin-right: 5rem;
+    cursor: pointer;
 }
 
 .pesquisa ul li {
@@ -129,6 +132,7 @@
     height: 15rem;
     border-radius: 17px;
     margin-right: 1%;;
+    cursor: pointer;
 }
 
 .hamburguer:hover {
@@ -172,6 +176,7 @@
     height: 15rem;
     border-radius: 17px;
     margin-left: 1%;
+    cursor: pointer;
 }
 
 .carrinho img {
@@ -226,6 +231,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    cursor: pointer;
 }
 
 .bebidas {
@@ -280,6 +286,7 @@
 
 .box ul:hover {
     border: 0.1px solid rgb(202, 202, 202);
+    cursor: pointer;
 }
 
 .box ul {
@@ -323,6 +330,7 @@
     justify-content: center;
     column-gap: 1rem;
     width: 100%;
+    cursor: pointer;
 }
 
 .promocoes img {
@@ -339,6 +347,7 @@
     padding-top: 15rem;
     column-gap: 1rem;
     margin-left: 0rem;
+    cursor: pointer;
 }
 
 .top-merket ul {
@@ -409,6 +418,7 @@
     align-items: center;
     color: white;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .saiba-mais2 {
@@ -433,6 +443,7 @@
     align-items: center;
     color: white;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .saiba-mais2 img {
@@ -483,6 +494,8 @@ hr {
     font-size: 18px;
     display: flex;
     column-gap: 4rem;
+    cursor: pointer;
+    width: 80rem;
 }
 
 .cria-conta a {
@@ -490,9 +503,62 @@ hr {
     color: red;
 }
 
+.popup {
+    background-color: white;
+    width: 22rem;
+    height: 8rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 10px rgb(194, 192, 192);
+    column-gap: 3rem;
+    margin-top: 2rem;
+    margin-left: 61.5rem;
+    position: absolute;
+}
+
+.popup div {
+    margin-top: 1rem;
+}
+
+.popup img {
+    width: 4.5rem;
+}
+
+.popup h1 {
+    font-size: 18px;
+    color: #353535;
+}
+
+.popup p {
+    color: #808080;
+    margin-top: 0.5rem;
+}
+
+.popup li {
+    list-style: none;
+    margin-top: 0.5rem;
+    color: red;
+    font-size: 17px;
+}
+
+.feche button {
+    font-size: 20px;
+    color: red;
+    margin-top: -0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.texto a {
+    text-decoration: none;
+    color: red;
+}
+
 @media screen and (max-width: 930px) {
     body {
         width: 935px;
+        overflow-x: hidden;
     }
 
     .menu {
@@ -501,6 +567,10 @@ hr {
 
     .logo {
         width: 20rem;
+    }
+
+    .cria-conta {
+        width: 13rem;
     }
 
     .conteudo {
@@ -592,7 +662,7 @@ hr {
 
     .promo {
         background-image: url(/imgs/promos/promo-mobile.jpg);
-        height: 33vh;
+        height: 30vh;
         margin-top: 5rem;
     }
 
@@ -607,10 +677,31 @@ hr {
     }
 
     .rodape img {
-        margin-right: 9rem;
+        margin-right: 5rem;
     }
 
-    .rodape li {
-        padding-top: 6rem;
+    .dicas {
+        margin-top: 3rem;
+        margin-right: -25rem;
     }
+
+    .popup {
+        margin-left: 0;
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 0.5rem;
+    }
+
+    .popup div {
+        margin-left: 3rem;
+    }
+
+    .feche button {
+        margin-left: 27rem;
+    }
+
+
+
 }

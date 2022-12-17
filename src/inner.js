@@ -5,5 +5,4 @@ const container = document.querySelector('.container');
 
 fechar.addEventListener('click', function(e) {
     container.removeChild(popup);
-    console.log("olá");
 }); 
