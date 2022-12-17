@@ -556,6 +556,9 @@ hr {
 }
 
 @media screen and (max-width: 930px) {
+    body {
+        width: 935px;
+    }
 
     .menu {
         display: none;
@@ -660,23 +663,16 @@ hr {
         background-image: url(/imgs/promos/promo-mobile.jpg);
         height: 30vh;
         margin-top: 5rem;
-        width: 55rem;
-        overflow: hidden;
     }
 
     .promo img {
         display:none;
     }
 
-    hr {
-        width: 865px;
-    }
-
     .rodape {
         display: flex;
         flex-direction: column;
         height: 25vh;
-        overflow: hidden;
     }
 
     .rodape img {
@@ -690,7 +686,7 @@ hr {
 
     .popup {
         margin-left: 0;
-        width: 54rem;
+        width: 100%;
         position: relative;
         display: flex;
         justify-content: flex-start;
@@ -704,5 +700,4 @@ hr {
     .feche button {
         margin-left: 27rem;
     }
-
 }
