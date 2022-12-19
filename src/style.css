@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .container{
     max-width: 1380px;
     height: 300vh;
@@ -557,7 +558,7 @@ hr {
 
 @media screen and (max-width: 930px) {
     body {
-        width: 935px;
+        width: 100%;
     }
 
     .menu {
@@ -625,7 +626,7 @@ hr {
     }
 
     .promocoes img {
-        width: 17rem;
+        width: 16rem;
     }
 
     .top-merket {
@@ -681,7 +682,8 @@ hr {
 
     .dicas {
         margin-top: 3rem;
-        margin-right: -25rem;
+        margin-right: -1rem;
+        width: 100%;
     }
 
     .popup {
