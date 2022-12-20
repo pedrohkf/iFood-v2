@@ -1119,3 +1119,54 @@ hr {
         border-radius: 2px;
     }
 }
+
+@media screen and (max-width: 795px) {
+
+    body {
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .popup p, a {
+        width: 10rem;
+        margin-left: 0;
+    }
+
+    .texto li {
+        margin-left: 0rem;
+    }
+
+    .feche button {
+        margin-left: 22rem;
+    }
+
+    .classificados h1 {
+        display: flex;
+        margin-left: 0.25rem;
+    }
+
+    .promocoes img {
+        width: 15.5rem;
+    }
+
+    .saiba-mais2 img {
+        width: 28.5rem;
+    }
+
+    .saiba-mais2 h1, p, li {
+        margin-left: 2.5rem;
+    } 
+
+    .pesquisa li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+}
