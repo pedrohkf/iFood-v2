@@ -196,40 +196,70 @@
 @media screen and (max-width: 420px) {
 
     .container {
-        width: 300px;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
     }
 
     .cabecalho {
         display: flex;
         width: 100%;
+        margin-top: 0rem;
     }
 
     .cabecalho img {
         display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 6rem;
+        width: 5rem;
+        margin-top: 0.3rem;
     }
 
     .banner {
         display: flex;
-        justify-content: center;
-        width: 29rem;
+        width: 21.5rem;
+        height: 35rem;
+        margin: 0;
+        height: 23rem;    }
+
+    .banner h1 {
+        margin-top: -5rem;
+        font-size: 28px;
+    }
+
+    .banner p {
+        font-size: 18px;
     }
 
     .google {
-        max-width: 28rem;
+        max-width: 20rem;
         justify-content: flex-start;
+        margin-top: 1.5rem;
+        height: 3rem;
     }
 
     .google li {
         display: flex;
-        padding-left: 1.5rem;
+        margin-left: 3rem;
+    }
+
+    .google img {
+        margin-top: 0;
     }
 
     .face {
-        max-width: 28rem;
+        max-width: 20rem;
+        margin-top: 1.5rem;
+        height: 3rem;
+    }
+
+    .face img {
+        margin-top: 0;
     }
 
     .face li {
-        margin-left: 4.8rem;
+        margin-left: 3rem;
     }
 
     img {
@@ -237,11 +267,14 @@
         overflow: hidden;
         display: flex;
         justify-content: center;
+        margin-top: -8rem;
     }
 
     .img {
         width: 25rem;
     }
 
-
+    .opcoes {
+        margin-top: 1.5rem;
+    }
 }

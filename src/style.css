@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-.container{
+.container {
     max-width: 1380px;
     height: 300vh;
     padding-top: 3rem;
@@ -52,7 +52,7 @@
     color: #8b8a8b;
 }
 
-.cria-conta{
+.cria-conta {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -132,7 +132,8 @@
     width: 26rem;
     height: 15rem;
     border-radius: 17px;
-    margin-right: 1%;;
+    margin-right: 1%;
+    ;
     cursor: pointer;
 }
 
@@ -434,7 +435,7 @@
     row-gap: 2rem;
 }
 
-.saiba-mais2 li{
+.saiba-mais2 li {
     list-style: none;
     width: 8rem;
     height: 3.5rem;
@@ -578,7 +579,7 @@ hr {
         justify-content: center;
     }
 
-    .hamburguer{
+    .hamburguer {
         height: 13.5rem;
     }
 
@@ -640,6 +641,7 @@ hr {
         height: 5rem;
         display: flex;
     }
+
     .top-merket img {
         width: 2rem;
         margin-left: 0.7rem;
@@ -667,7 +669,7 @@ hr {
     }
 
     .promo img {
-        display:none;
+        display: none;
     }
 
     .rodape {
@@ -744,7 +746,9 @@ hr {
         margin-top: -0.5rem;
     }
 
-    .texto h1, p, li {
+    .texto h1,
+    p,
+    li {
         width: 10rem;
         margin-left: -2rem;
         margin-top: 0rem;
@@ -840,7 +844,8 @@ hr {
 
     .hamburguer p {
         margin-top: -1rem;
-        margin-left: 0rem; ;
+        margin-left: 0rem;
+        ;
         width: 8rem;
         font-size: 14px;
     }
@@ -863,7 +868,8 @@ hr {
 
     .carrinho p {
         margin-top: -1.5rem;
-        margin-left: 0rem; ;
+        margin-left: 0rem;
+        ;
         width: 8rem;
         font-size: 14px;
     }
@@ -1028,8 +1034,7 @@ hr {
         display: none;
     }
 
-    .rodape {
-    }
+    .rodape {}
 
     .rodape ul {
         display: flex;
@@ -1051,5 +1056,66 @@ hr {
         justify-content: center;
         margin-left: 2rem;
         width: 15rem;
+    }
+}
+
+
+@media screen and (max-width: 280px) {
+
+    .banner h1 {
+        font-size: 18px;
+    }
+
+    .banner p {
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .pesquisa input {
+        width: 14rem;
+        margin-left: -1.5rem;
+    }
+
+    .pesquisa ul {
+        width: 15rem;
+        display: flex;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+
+    .pesquisa li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .saiba-mais img {
+        width: 6rem;
+    }
+
+    .saiba-mais p {
+        font-size: 12px;
+    }
+
+    .saiba-mais2 img {
+        width: 18rem;
+    }
+
+    .rodape ul img {
+        margin-left: 2.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .rodape ul p {
+        width: 11.5rem;
+    }
+
+    .categorias {
+        column-gap: 0.2rem;
+        border-radius: 2px;
     }
 }
