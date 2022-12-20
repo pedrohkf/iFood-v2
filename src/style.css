@@ -662,7 +662,7 @@ hr {
 
     .promo {
         background-image: url(/imgs/promos/promo-mobile.jpg);
-        height: 30vh;
+        height: 28vh;
         margin-top: 5rem;
     }
 
@@ -701,5 +701,355 @@ hr {
 
     .feche button {
         margin-left: 27rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    body {
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .cabecalho {
+        width: 100%;
+    }
+
+    .cabecalho img {
+        width: 5rem;
+        margin-left: 1.5rem;
+    }
+
+    .cria-conta li {
+        display: none;
+    }
+
+    .cria-conta p {
+        margin-right: 1.5rem;
+        height: 2.5rem;
+    }
+
+    .popup {
+        width: 100%;
+    }
+
+    .cupom img {
+        width: 4rem;
+        margin-left: -2.5rem;
+        margin-top: -0.5rem;
+    }
+
+    .texto h1, p, li {
+        width: 10rem;
+        margin-left: -2rem;
+        margin-top: 0rem;
+    }
+
+    .feche button {
+        margin-left: 2rem;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        font-size: 11px;
+        margin: 0rem;
+    }
+
+    .banner p {
+        font-size: 13px;
+        width: 13rem;
+        display: flex;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+
+    .pesquisa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 10rem;
+        width: 100%;
+    }
+
+    .pesquisa input {
+        width: 20rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pesquisa ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        width: 22.2rem;
+        margin-top: 2rem;
+        margin-left: 0.4rem;
+    }
+
+    .pesquisa ul li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .hamburguer {
+        width: 10rem;
+        height: 11rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+
+    .opcoes {
+        margin-top: 3rem;
+    }
+
+    .carrinho {
+        width: 10rem;
+        height: 11rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.5rem;
+    }
+
+    .hamburguer img {
+        width: 7rem;
+        margin-left: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hamburguer h1 {
+        margin-top: 1rem;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+
+    .hamburguer p {
+        margin-top: -1rem;
+        margin-left: 0rem; ;
+        width: 8rem;
+        font-size: 14px;
+    }
+
+    .carrinho img {
+        width: 7rem;
+        margin-left: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carrinho h1 {
+        margin-top: 1rem;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+
+    .carrinho p {
+        margin-top: -1.5rem;
+        margin-left: 0rem; ;
+        width: 8rem;
+        font-size: 14px;
+    }
+
+    .categorias {
+        width: 100%;
+        column-gap: 1rem;
+        align-items: center;
+    }
+
+    .categorias img {
+        width: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .categorias ul {
+        width: 6rem;
+        height: 2rem;
+    }
+
+    .fundo1 img {
+        margin-top: -0.75rem;
+    }
+
+    .fundo1 li {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        font-size: 15px;
+    }
+
+    .fundo2 img {
+        margin-top: -1.45rem;
+    }
+
+    .fundo2 li {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        font-size: 15px;
+    }
+
+    .fundo3 img {
+        margin-top: -0.3rem;
+    }
+
+    .fundo3 li {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        font-size: 15px;
+    }
+
+    .classificados h1 {
+        font-size: 20px;
+        margin-left: 1rem;
+    }
+
+    .classificados {
+        display: none;
+    }
+
+
+    .promocoes {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .promocoes img {
+        display: flex;
+        justify-content: center;
+        margin-left: 3.5rem;
+    }
+
+    .top-merket {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        justify-content: center;
+    }
+
+    .top-merket h1 {
+        font-size: 20px;
+        margin-left: 1rem;
+    }
+
+    .saiba-mais {
+        width: 18.5rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5rem;
+    }
+
+    .saiba-mais div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .saiba-mais img {
+        width: 10rem;
+        margin-left: -4rem;
+    }
+
+    .saiba-mais h1 {
+        font-size: 18px;
+        margin-top: 0;
+        margin-left: 0.5rem;
+    }
+
+    .saiba-mais p {
+        font-size: 13px;
+        margin-left: -11rem
+    }
+
+    .saiba-mais li {
+        height: 2.3rem;
+        width: 6rem;
+        font-size: 14px;
+        margin-left: -23rem;
+    }
+
+    .saiba-mais2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .saiba-mais2 h1 {
+        font-size: 18px;
+        display: flex;
+        margin-left: 7rem;
+    }
+
+    .saiba-mais2 p {
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7rem;
+    }
+
+    .saiba-mais2 li {
+        margin: 0;
+        justify-content: center;
+        margin-left: 6.8rem;
+    }
+
+    .saiba-mais2 img {
+        width: 23.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem;
+    }
+
+    .promo {
+        display: none;
+    }
+
+    .rodape {
+    }
+
+    .rodape ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape img {
+        margin-right: 17rem;
+    }
+
+    .rodape p {
+        padding-left: 5rem;
+        width: 15rem;
+        margin-top: -4rem;
+    }
+
+    .rodape li {
+        display: flex;
+        justify-content: center;
+        margin-left: 2rem;
+        width: 15rem;
     }
 }
