@@ -1034,8 +1034,6 @@ hr {
         display: none;
     }
 
-    .rodape {}
-
     .rodape ul {
         display: flex;
         flex-direction: column;
@@ -1120,7 +1118,7 @@ hr {
     }
 }
 
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 840px) {
 
     body {
         margin: 0;
